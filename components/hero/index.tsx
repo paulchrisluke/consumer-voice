@@ -58,6 +58,7 @@ export default function Hero() {
             src={hero}
             alt="Hero illustration"
             className="-mt-8 h-full w-full object-contain"
+            priority
           />
         </div>
       </div>

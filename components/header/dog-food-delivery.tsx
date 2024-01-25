@@ -3,7 +3,13 @@ interface Props {
 }
 export default function DogFoodDelivery(props: Props) {
   return (
-    <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      width="46"
+      height="46"
+      viewBox="0 0 46 46"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         d="M33.84 21.963c0 4.929-1.803 6.672-4.32 9.64-1.997 2.355-2.16 6.48-7.02 6.48-4.86 0-4.718-3.646-7.02-6.48-2.215-2.727-4.32-4.54-4.32-9.64 0-6.605 5.077-11.96 11.34-11.96s11.34 5.355 11.34 11.96z"
         stroke="#000"
