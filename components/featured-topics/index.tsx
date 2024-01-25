@@ -84,20 +84,34 @@ export default function FeaturedTopics() {
         </div>
         <div className="relative">
           <Swiper
-            slidesPerGroup={6}
             slidesPerView={'auto'}
+            slidesPerGroup={5}
             spaceBetween={24}
             modules={[Navigation]}
+            breakpoints={{
+              640: {
+                slidesPerView: 4
+              },
+              768: {
+                slidesPerView: 6
+              },
+              1024: {
+                slidesPerView: 7
+              },
+              1280: {
+                slidesPerView: 9
+              }
+            }}
             navigation={{
               prevEl: '.feature-prev',
               nextEl: '.feature-next'
             }}
-            className="!overflow-visible"
+            className="!overflow-visiblce !-m-3 !p-3"
           >
             {featuredTopics.map((item, index) => (
               <SwiperSlide
                 key={index}
-                className="relative block !w-[102px] overflow-hidden rounded-[50px] bg-white shadow-primary hover:bg-theme-light"
+                className="slider-slide relative block overflow-hidden rounded-[50px] bg-white shadow-md hover:bg-theme-light"
               >
                 <div className="px-3.5 pb-9 pt-4">
                   <div className="mx-auto mb-4  flex h-[76px] w-[76px] items-center justify-center  rounded-full border border-light-100 bg-white ">

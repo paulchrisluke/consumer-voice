@@ -12,3 +12,9 @@ input[type='search']::-webkit-search-results-button,
 input[type='search']::-webkit-search-results-decoration {
   -webkit-appearance: none;
 }
+
+@media (max-width: 640px) {
+  .slider-slide {
+    @apply !w-[102px];
+  }
+}
