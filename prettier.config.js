@@ -2,7 +2,7 @@ module.exports = {
   singleQuote: true,
   arrowParens: 'always',
   trailingComma: 'none',
-  printWidth: 100,
+  printWidth: 80,
   tabWidth: 2,
   plugins: [
     require('@trivago/prettier-plugin-sort-imports'),

@@ -1,3 +1,9 @@
+import Articles from 'components/articles';
+import FeaturedTopics from 'components/featured-topics';
+import Hero from 'components/hero';
+import TopReviews from 'components/top-reviews';
+import WhyTrusted from 'components/why-trusted';
+
 export const metadata: Metadata = {
   title: 'Home',
   datePublished: '1/1/2023',
@@ -6,10 +12,12 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>
-        <h1 className="text-2xl">Next.js Starter</h1>
-      </div>
+    <main>
+      <Hero />
+      <FeaturedTopics />
+      <TopReviews />
+      <Articles />
+      <WhyTrusted />
     </main>
   );
 }
