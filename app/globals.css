@@ -18,3 +18,9 @@ input[type='search']::-webkit-search-results-decoration {
     @apply !w-[102px];
   }
 }
+
+@layer components {
+  .btn-primary {
+    @apply inline-block rounded-md bg-theme px-6 py-2.5 text-lg font-bold text-white transition-all hover:bg-theme-light;
+  }
+}

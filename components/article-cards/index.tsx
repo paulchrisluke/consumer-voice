@@ -19,7 +19,7 @@ const articleData = [
   }
 ];
 
-export default function Articles() {
+export default function ArticleCards() {
   return (
     <section className="mb-10 w-full pt-20">
       <div className="mx-auto w-full max-w-7xl px-5">

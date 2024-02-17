@@ -1,4 +1,4 @@
-import Articles from 'components/articles';
+import ArticleCards from 'components/article-cards';
 import FeaturedTopics from 'components/featured-topics';
 import Hero from 'components/hero';
 import TopReviews from 'components/top-reviews';
@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <FeaturedTopics />
       <TopReviews />
-      <Articles />
+      <ArticleCards />
       <WhyTrusted />
     </main>
   );

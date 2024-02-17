@@ -106,7 +106,7 @@ export default function FeaturedTopics() {
               prevEl: '.feature-prev',
               nextEl: '.feature-next'
             }}
-            className="!overflow-visiblce !-m-3 !p-3"
+            className="!-m-3 !p-3"
           >
             {featuredTopics.map((item, index) => (
               <SwiperSlide

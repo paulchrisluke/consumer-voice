@@ -10,7 +10,8 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: ['var(--font-poppins)', fontFamily.sans],
-        secondary: ['var(--font-montserrat)', fontFamily.sans]
+        secondary: ['var(--font-montserrat)', fontFamily.sans],
+        sans: ['var(--font-montserrat)', fontFamily.sans]
       },
       colors: {
         dark: {
